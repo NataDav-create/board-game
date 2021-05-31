@@ -1,0 +1,36 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(5, 50px); */
+  border: 1px solid black;
+  /* width: 260px;
+  height: 260px; */
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.cellInner {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.squaresWrapper {
+  margin-left: 100px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
